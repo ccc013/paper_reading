@@ -14,7 +14,7 @@
 
 所以，本文希望在弱监督的条件下，将不同的相似条件和属性作为一个隐变量，学习到对应的特征子空间，如下图所示，对比了本文的方法和先前的一些工作。
 
-<img src="https://gitee.com/lcai013/image_cdn/raw/master/notes_images/fig1.png" style="zoom:80%;" />
+![](https://gitee.com/lcai013/image_cdn/raw/master/notes_images/fig1.png)
 
 先前的工作需要用户定义的标签来学习不同相似性的特征子空间，比如上衣和裤子的子空间，或者裤子和鞋子的子空间。而对于本文的方法来说，并不需要这些显式的标签来学习特征子空间。
 
