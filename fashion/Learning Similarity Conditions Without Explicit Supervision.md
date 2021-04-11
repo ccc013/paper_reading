@@ -18,13 +18,13 @@
 
 先前的工作需要用户定义的标签来学习不同相似性的特征子空间，比如上衣和裤子的子空间，或者裤子和鞋子的子空间。而对于本文的方法来说，并不需要这些显式的标签来学习特征子空间。
 
-本文是提出了一个相似条件向量网络（Similarity Condition Embedding Network，SCE-Net）模型从一个统一的向量空间中联合学习不同的相似条件，一个整体结构示意图如下所示：
+本文是提出了一个相似条件向量网络（Similarity Condition Embedding Network，SCE-Net）模型从一个统一的向量空间中联合学习不同的相似条件，一个整体结构示意图如下所示：
 
 - 每张图片会经过一个 CNN 网络，然后映射到统一的向量空间中
 - 该网络比较核心的部分是一系列平行的相似条件 masks，即图中的 $C_1, C_2，\cdots, C_M$，这些 masks 是通过图中的条件权重分支所学习到的；
 - 图中的条件权重分支可以被看做是一种 attention 机制，对正在进行比较的对象，动态分配每种条件 mask；
 
-<img src="https://gitee.com/lcai013/image_cdn/raw/master/notes_images/fig2.png" style="zoom:80%;" />
+![](https://gitee.com/lcai013/image_cdn/raw/master/notes_images/fig2.png)
 
 本文的贡献归纳如下：
 
