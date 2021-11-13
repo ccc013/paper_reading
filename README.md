@@ -1,5 +1,10 @@
 记录平时阅读的论文笔记
 
+- Face Detection
+- Quantization
+- Fashion
+- Recommend System
+
 
 
 联系方式：
@@ -12,7 +17,37 @@ Github：https://github.com/ccc013
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/2021041115112033.jpeg#pic_center)
 
+------
 
+## Face Detection
+
+|                      Title                       |              Paper               |                             Code                             | My note                                           | Discuss |
+| :----------------------------------------------: | :------------------------------: | :----------------------------------------------------------: | ------------------------------------------------- | ------- |
+| RetinaNet：Focal Loss for Dense Object Detection | https://arxiv.org/abs/1708.02002 | 官方 github：https://github.com/facebookresearch/detectron tensorflow：https://github.com/tensorflow/models https://github.com/fizyr/keras-retinanet https://github.com/yhenon/pytorch-retinanet | https://mp.weixin.qq.com/s/6ivSPTfF_h6eMyE7h18hUQ |         |
+|                                                  |                                  |                                                              |                                                   |         |
+
+
+
+
+
+------
+
+## Quantization
+
+|                            Title                             |                Paper                 | Code | My note | Discuss |
+| :----------------------------------------------------------: | :----------------------------------: | :--: | ------- | ------- |
+| A Quantization-Friendly Separable Convolution for MobileNets | https://arxiv.org/pdf/1803.08607.pdf |  /   |         |         |
+|                                                              |                                      |      |         |         |
+
+
+
+
+
+
+
+
+
+------
 
 ## Fashion
 
@@ -35,4 +70,6 @@ Github：https://github.com/ccc013
 | **DeepFM**："DeepFM: A Factorization-Machine based Neural Network for CTR Prediction". | [paper](https://www.ijcai.org/proceedings/2017/0239.pdf) | [Tensorflow](https://github.com/ChenglongChen/tensorflow-DeepFM) [Pytorch](https://github.com/nzc/dnn_ctr) |         |         |
 |                                                              |                                                          |                                                              |         |         |
 |                                                              |                                                          |                                                              |         |         |
+
+
 
